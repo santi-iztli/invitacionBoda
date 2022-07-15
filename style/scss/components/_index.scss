@@ -1,0 +1,531 @@
+/* HTML y Body */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+
+html, body{
+	background: #ffffff;
+   color: black;
+   transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+   overflow:auto;
+
+
+   &.dark{
+	background: #0f0c29 !important;
+	overflow:none;
+}
+}
+
+hr{
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    border: 2px solid rgba(143, 67, 32, 0.377) !important;
+    border-radius: 15px;
+
+	body.dark &{
+		border: 2px solid rgba(255, 255, 255, 0.4) !important;
+	}
+}
+
+sa
+
+a:hover {
+    color: white !important;
+}
+
+/* sections */
+
+section{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color:  rgba(132, 0, 255, 0.01);
+
+	body.dark &{
+		background: #0f0c29;
+		background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+		background: linear-gradient(to right, #24243e, #302b63, #0f0c29) ; 
+		color: #ffffff;
+	
+	
+	   }
+}
+
+section h2{
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	padding: 20px;
+	font-family:'Poiret One';
+	margin: 0;
+
+
+	body.dark &{
+		color: #ffffff;
+	
+	   }
+}
+
+ section h3{
+	font-size: 29px;
+	font-weight: bolder;
+	color: black;
+	padding: 20px;
+	font-family:'Poiret One';
+	margin: 0;
+
+	body.dark &{
+		color: white;
+	}
+ }
+
+
+ section h4{
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	font-family:'Poiret One';
+	font-weight: 600;
+	margin: 0;
+
+	body.dark &{
+		color: white;
+	}
+ }
+
+section p{
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	font-family:'Josefin Sans';
+	font-weight:700;
+
+	body.dark &{
+		color: white;
+	}
+} 
+
+
+/* Portada */
+
+#portada p {
+    position: absolute;
+    top: 20px;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+	text-shadow: 0 5px 5px black;
+	font-family:'Josefin Sans';
+	font-weight: 100;
+}
+
+#portada h1 {
+    position: absolute;
+    top: 90px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+	text-shadow: 0 5px 5px black;
+	font-family:'Josefin Sans';
+}
+
+.image-container img{
+	max-width: 500px;
+ }
+
+ /********** Fin Portada **********/
+/* Intro */
+
+#vestimenta{
+	background: rgba(158, 115, 181, 0.1803921569);
+
+	body.dark &{
+		background: rgba(158, 115, 181, 0.1803921569);
+	}
+}
+
+.vestido-dark{
+    margin:10px 30px;
+	width: 120px;
+	padding: 5px;
+
+	body.dark &{
+		display: none;
+
+	}
+}
+
+.vestido-white{
+	display: none;
+
+	body.dark &{
+
+		margin:10px 30px;
+		width:120px;
+		padding: 5px;
+		display: flex;
+
+	}
+}
+
+
+.camisa-dark{
+    margin:10px 30px;
+	width: 120px;
+	padding: 5px;
+
+	body.dark &{
+		display: none;
+
+	}
+}
+
+.camisa-white{
+	display: none;
+
+	body.dark &{
+
+		margin:10px 30px;
+		width:120px;
+		padding: 5px;
+		display: flex;
+
+	}
+}
+
+.icono{
+	width: 90px;
+	margin: 40px;
+}
+
+
+.novios{
+	margin: 30px;
+	margin-left: 85px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 160px;
+	filter: drop-shadow(1px 1px 20px rgb(191, 148, 214));
+
+
+	body.dark &{
+	display: none;
+	}
+   }
+
+   .novios-white{
+	margin: 30px;
+	margin-left: 85px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 160px;
+	display: none;
+
+
+	body.dark &{
+	display: flex;
+	}
+   }
+
+
+   .novios-dark{
+	margin: 30px;
+	margin-left: 85px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 160px;
+	display: flex;
+
+	body.dark &{
+	display: none;
+	}
+   }
+
+.mensaje{
+	width: 100%;
+	padding:20px;
+	font-size: 20px;
+	text-align:justify;
+
+	p span{
+		text-align: center;
+	}
+  }
+
+
+  .mensaje span{
+	
+  }
+
+
+/* Cuándo y dónde? */
+
+
+
+ /********** Cuándo y dónde? **********/
+
+
+
+
+.save-the-day-dark{
+
+	width: 100%;
+	body.dark &{
+	filter: drop-shadow(1px 1px 15px rgba(255, 255, 255, 1));
+	}
+
+	body.dark &{
+	display: none;
+	}
+
+}
+
+.save-the-day-white{
+
+	display: none;
+
+	body.dark &{
+		display:flex;
+		width: 100%;
+	}
+
+}
+
+
+/* Cuenta regresiva */
+  
+.counter-wrapper {
+	position: absolute;
+	width: 305px;
+	top:400px;
+	color:white;
+  }
+
+
+  @media screen and (min-width: 413px){
+	.counter-wrapper {
+		position: absolute;
+		width: 305px;
+		top:440px;
+		color:white;
+	  }
+  }
+  
+
+  .cartel {
+	width: 60px;
+	height: 60px;
+	padding: 7px;
+	text-align: center;
+	display: inline-block;
+	margin: 5px;
+/* 	background-color: rgb(249 237 223);
+    border: 5px solid #f9eddf; */
+	border-radius: 50px;
+  }
+  
+  .cartel > div {
+	font-size: 25px;
+	font-family:'Josefin Sans';
+	text-shadow: 0 5px 5px rgb(0, 0, 0);
+	animation: fade 3s;
+	line-height: 30px;
+	margin-top: 2px;
+	margin-top: 10px;
+  }
+  
+  .cartel > div > h3 {
+	margin-top: 15px;
+	font-size: 15px;
+	color: white;
+	font-family:'Josefin Sans';
+	text-shadow: 0 5px 5px black;
+	font-weight: normal;
+	padding: 0;
+	margin-left: -15px;
+  }
+
+  
+  .contenido {
+	width: 100%;
+	border: 0px solid black;
+	z-index: 10;
+  }
+  
+  
+ 
+  @keyframes fade {
+	0% {
+	  opacity: 0;
+	}
+	30% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+/* Fin de cuenta regresiva */
+
+
+
+.horario--texto{
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: -20px;
+}
+
+.sub-titulo{
+	width: bolder;
+}
+
+
+.placeCard{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	color: black;
+    background-color: #9e73b52e;
+	padding: 20px;
+}
+
+.cardTitle p{
+	font-size: 22px;
+	font-weight: bolder;
+
+	body.dark &{
+		color: white;
+	}
+}
+
+.cardDescription{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tIvQIf.m7w29c {
+	display: none !important;
+}
+
+.btn-wrapper{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+
+.cardImage{
+	display: flex;
+	align-items: center;
+}
+
+.cardImage img{
+	margin:20px auto;
+	width:100%;
+    border-radius: 15px;
+
+}
+
+
+.main-title{
+	position: absolute;
+	top: 55px;
+	display: flex;
+	color: black;
+	justify-content: center;
+	flex-direction: column;
+	border: solid red 2px;
+}
+
+.btn{
+    margin: 5px;
+    width:200px;
+	border: none !important;
+	box-shadow:0 0 1px rgba(158, 115, 181, 0.9) ;
+    background-color: rgba(158, 115, 181, 0.5) !important;
+	z-index: 99999;
+    margin-top: 15px;
+
+	a:hover{
+ color: white;
+	}
+}
+
+.btn:hover {
+	background-color: rgba(158, 115, 181, 0.8) 
+	!important;
+}
+
+.btn a,a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+}
+
+.whats-app {
+	width: 30px;
+	padding: 5px;
+}
+
+.google--form{
+width: 100%;
+height: 920px;
+z-index: 9999;
+}
+
+
+/* Responsive */
+
+@media only screen and (min-width: 375px){
+	.image-container img{
+	   max-width: 100%;
+	}
+   
+	.placeCard{
+	   max-width: 100%;
+	}
+   .google--form{
+	   height: 1360px;
+	}
+	.mensaje{
+	   max-width: 100%;
+	}
+   
+	section{
+	   width: 100%;
+	   margin: 0 auto;
+	}
+   }
+   
+
+@media only screen and (min-width: 415px){
+ .image-container img{
+	max-width: 400px;
+ }
+
+ .placeCard{
+	max-width: 400px;
+ }
+.google--form{
+	max-width: 400px;
+	height: 1000px;
+ }
+ .mensaje{
+	max-width: 400px;
+ }
+
+ section{
+	width: 400px;
+	margin: 0 auto;
+ }
+}
+
+
