@@ -1,16 +1,3 @@
-
-/* function alerta1() {
-    Swal.fire({
-        imageUrl: './Imagenes/invitacion.gif',
-        imageWidth: 100,
-        imageHeight: 100,
-        text:'a la boda de Delia y Santiago',
-        title:'Haz sido invitado',
-        confirmButtonText: 'Abrir',
-    });
-}
-alerta1(); */
- 
 const second = 1000,
       minute = second * 60,
       hour = minute * 60,
