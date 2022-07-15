@@ -119,9 +119,9 @@ section p{
 /* Portada */
 
 
-#portada{
+/* #portada{
 	z-index: 999;
-}
+} */
 
 
 #portada p {
@@ -132,6 +132,7 @@ section p{
 	text-shadow: 0 5px 5px black;
 	font-family:'Josefin Sans';
 	font-weight: 100;
+	z-index: 3;
 }
 
 #portada h1 {
@@ -142,7 +143,12 @@ section p{
 
 	text-shadow: 0 5px 5px black;
 	font-family:'Josefin Sans';
+	z-index: 3;
 }
+
+.image-container{
+	z-index: 2;
+ }
 
 .image-container img{
 	max-width: 500px;
@@ -315,6 +321,7 @@ section p{
 	top:400px;
 	color:white;
 	font-weight: bolder;
+	z-index: 3;
   }
 
 
