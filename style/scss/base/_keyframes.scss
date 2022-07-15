@@ -1,6 +1,6 @@
 
 
-/* .box{
+.box{
 
   transition: transform .5s, opacity .5s;
 
@@ -18,7 +18,7 @@
   opacity: 0;
 }
 .box.bottom{
-  transform: translateY(200px) scaleX(3);
+  transform: translateY(200px);
   opacity: 0;
 }
 .box.active{
@@ -28,4 +28,4 @@
 
 .loader{
   text-align: center;
-} */
+}
