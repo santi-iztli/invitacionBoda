@@ -71,16 +71,21 @@ section h2{
 }
 
  section h3{
-	font-size: 29px;
+	font-size: 28px;
 	font-weight: bolder;
 	color: black;
-	padding: 20px;
+	padding: 5px;
 	font-family:'Poiret One';
 	margin: 0;
 
 	body.dark &{
 		color: white;
 	}
+ }
+
+ .bbva{
+	font-size: 15px ;
+	margin: 0;
  }
 
 
