@@ -4,9 +4,12 @@ function alerta1() {
         imageUrl: './Imagenes/invitacion.gif',
         imageWidth: 100,
         imageHeight: 100,
-        text:'a la boda de Delia y Santiago',
-        title:'Haz sido invitado',
+        text:'a la boda de Delia y Santiago 😊',
+        title:'Hey! Haz sido invitado 🎉',
         confirmButtonText: 'Abrir',
+        color: '#b8b8b8',
+        background: '#273447 ',
+        backdrop: 'rgba(0,0,0,0.7)'
     });
 }
 alerta1();
