@@ -6,7 +6,7 @@
 	padding: 0;
   }
 
-html, body{
+body{
 	background: #ffffff;
    color: black;
    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -146,12 +146,12 @@ section p{
 	z-index: 3;
 }
 
-.image-container{
+.zindex2{
 	z-index: 2;
  }
 
 .image-container img{
-	max-width: 500px;
+	max-width: 500px
  }
 
  /********** Fin Portada **********/
@@ -422,35 +422,6 @@ section p{
 	}
 }
 
-.cardDescription{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-
-.tIvQIf.m7w29c {
-	display: none !important;
-}
-
-.btn-wrapper{
-	width: 90%;
-	display: flex;
-	align-items: center;
-	flex-direction:column;
-}
-
-.cardImage{
-	display: flex;
-	align-items: center;
-}
-
-.cardImage img{
-	margin:20px auto;
-	width:100%;
-    border-radius: 15px;
-
-}
-
 
 .main-title{
 	position: absolute;
@@ -462,14 +433,45 @@ section p{
 	border: solid red 2px;
 }
 
+
+.cardImage{
+	display: flex;
+	align-items: center;
+}
+
+.cardImage img{
+	margin:20px auto;
+	width:100%;
+    border-radius: 15px;
+}
+
+.cardDescription{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+
+.btn-wrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 .btn{
+	position: relative;
     margin: 5px;
     width:200px;
 	border: none !important;
 	box-shadow:0 0 1px rgba(158, 115, 181, 0.9) ;
     background-color: rgba(158, 115, 181, 0.5) !important;
-	z-index: 999;
     margin-top: 15px;
+	z-index: 99999!important;
 
 	a:hover{
  color: white;
