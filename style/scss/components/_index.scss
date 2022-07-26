@@ -11,6 +11,7 @@ body{
    color: black;
    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
    overflow:auto;
+   background: rgb(103 58 183 / 10%) !important;
 
 
    &.dark{
