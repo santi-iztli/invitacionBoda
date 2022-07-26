@@ -5,11 +5,13 @@ function alerta1() {
         imageWidth: 100,
         imageHeight: 100,
         text:'a la boda de Delia y Santiago 😊',
+  
         title:'Hey! Haz sido invitado 🎉',
         confirmButtonText: 'Abrir',
         color: '#b8b8b8',
         background: '#273447 ',
-        backdrop: 'rgba(0,0,0,0.7)'
+        backdrop: 'rgba(0,0,0,0.7)',
+        footer: 'Invitacion para 2 personas'
     });
 }
 alerta1();

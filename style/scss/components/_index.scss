@@ -104,12 +104,23 @@ section h2{
 	}
  }
 
+
+ section h5{
+
+	color: black;
+
+	body.dark &{
+		color: white;
+	}
+} 
+
 section p{
 	font-size: 18px;
 	text-align: center;
 	padding: 10px;
 	font-family:'Josefin Sans';
 	font-weight:700;
+	color: black;
 
 	body.dark &{
 		color: white;
@@ -218,6 +229,13 @@ section p{
 .icono{
 	width: 90px;
 	margin: 40px;
+}
+
+
+.foto{
+	width: 90%;
+	margin: 10px;
+	border-radius: 15px;
 }
 
 
