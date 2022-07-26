@@ -301,6 +301,10 @@ section p{
 
  #save{
 	background-color: rgba(158, 115, 181, 0.1803921569);
+
+	body.dark &{
+		background: rgba(158, 115, 181, 0.1803921569);
+	}
  }
 
 .save-the-day-dark{
