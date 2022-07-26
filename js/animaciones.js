@@ -10,6 +10,12 @@ function alerta1() {
         confirmButtonText: 'Abrir',
         color: '#b8b8b8',
         background: '#273447 ',
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          },
         backdrop: 'rgba(0,0,0,0.7)',
         footer: 'Invitacion para 2 personas'
     });
